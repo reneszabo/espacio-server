@@ -1,0 +1,33 @@
+{
+  "name": "parking-backend",
+  "version": "1.0.0",
+  "description": "Arduino with Johnny Five, Sense cars IN and OUT a Parking lot.",
+  "author": {
+    "name" : "Rene Ramirez",
+    "email" : "rene.szabo@gmail.com",
+    "url" : "https://ramirez-portfolio.com/"
+  },
+  "contributors": [{
+    "name" : "Qiongrong Jiang",
+    "email" : "qiongrongjiang@gmail.com",
+    "url" : "http://qiongrongjiang.com/"
+  }],
+  "keywords": ["nodejs", "socket io"],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "method-override": "^2.3.8",
+    "mongodb": "^2.2.25",
+    "mongoose": "^4.9.3",
+    "socket.io": "^1.7.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
